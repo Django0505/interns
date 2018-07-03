@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-03T08:20:23.228Z'
+    - ember-cli-app-version > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-03T08:20:23.228Z'
+    - ember-cli-htmlbars-inline-precompile > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-03T08:20:23.228Z'
+    - ember-cli-qunit > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-03T08:20:23.228Z'
+    - ember-cli-qunit > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-03T08:20:23.228Z'
+    - ember-disable-proxy-controllers > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-03T08:20:23.228Z'
+    - ember-disable-proxy-controllers > ember-cli-babel > broccoli-babel-transpiler > babel-core > lodash:
+        patched: '2018-07-03T08:20:23.228Z'
+    - ember-export-application-global > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-03T08:20:23.228Z'
+    - ember-cli > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-03T08:20:23.228Z'
