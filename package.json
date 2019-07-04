@@ -9,7 +9,9 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember test"
+    "test": "ember test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -56,6 +58,8 @@
     "ember-cli-uglify": "^1.2.0",
     "ember-data": "^1.13.15",
     "ember-disable-proxy-controllers": "^1.0.1",
-    "ember-export-application-global": "^1.0.5"
-  }
+    "ember-export-application-global": "^1.0.5",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
